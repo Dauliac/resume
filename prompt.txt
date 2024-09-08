@@ -1,0 +1,46 @@
+Je souhaite générer un CV complet au format JSON Resume en tant qu'ingénieur logiciel, destiné à des entreprises de la Big Tech. Ce CV doit mettre en avant mes compétences techniques solides, ma rigueur professionnelle, et ma capacité de communication. Le style doit être professionnel et imaginatif, proche de ce qu’un étudiant de HEC ou de Sciences Po pourrait produire.
+
+### 1. Génération automatique du `resume.json` :
+- Gère la structuration complète du CV au format JSON Resume, incluant les sections suivantes : résumé professionnel, expérience professionnelle, compétences techniques, projets, éducation, et certifications.
+- Pose-moi des questions précises pour recueillir les informations nécessaires à remplir chaque section de manière complète et optimisée.
+- Une fois toutes les informations collectées, crée un fichier JSON qui respecte les standards du format JSON Resume.
+
+### 2. Ingestion de la description de l'offre d'emploi :
+- Analyse la description du poste que je fournis (copie-colle la description ici).
+- Utilise cette analyse pour adapter automatiquement les sections du CV afin qu'elles correspondent aux compétences et qualifications demandées dans l’offre d’emploi. Ajoute ou ajuste des mots-clés pertinents, en particulier pour la compatibilité avec les systèmes de suivi des candidatures (ATS).
+- Indique dans quelle mesure les compétences listées dans la description du poste correspondent à mon profil et propose des suggestions pour mieux les aligner, si nécessaire.
+
+### 3. Ingestion et correction de la description personnelle :
+- Ingerer la description de moi-même que je fournis (copie-colle la description ici).
+- Corrige et améliore cette description pour mettre en valeur mes compétences, mes points forts et mes motivations. Reformule-la pour maximiser son impact, en mettant l’accent sur les éléments qui alignent au mieux ma personnalité et mes compétences avec les attentes de l'offre d'emploi.
+
+### 4. Génération de la lettre de motivation :
+- Utilise les informations extraites de l’offre d’emploi et du CV pour générer une lettre de motivation personnalisée, adaptée spécifiquement à l’entreprise visée.
+- Assure-toi que la lettre de motivation soit concise mais percutante, en mettant en avant les compétences et projets qui sont les plus pertinents pour le poste. Propose plusieurs versions (une plus concise et une plus détaillée) pour que je puisse choisir celle qui correspond le mieux à mon style.
+- Intègre une boucle de feedback pour réviser et ajuster la lettre de motivation si nécessaire. Demande des retours sur la pertinence du ton, du style et du contenu, et propose des modifications en fonction de ces retours.
+
+### 5. Boucles de feedback et suggestions d'amélioration :
+- Après chaque section du CV (résumé, expérience, compétences, etc.), effectue une auto-critique et propose des suggestions d'amélioration. Ces suggestions doivent inclure des modifications pour :
+   - Optimiser la clarté et la pertinence des informations pour l’offre d’emploi visée.
+   - Améliorer l'alignement avec les exigences spécifiques de l'offre (mots-clés, compétences demandées).
+   - Proposer des ajustements pour maximiser la compatibilité avec les systèmes ATS tout en restant attractif pour les recruteurs humains.
+- Après la génération de la lettre de motivation, effectue également une auto-évaluation et propose des variantes pour le ton et le style (par exemple : un ton plus formel, ou un ton plus créatif).
+
+### 6. Validation finale et génération du fichier JSON Resume :
+- Une fois que toutes les sections sont approuvées et que les feedbacks sont pris en compte, génère le fichier `resume.json` final.
+- Assure-toi que toutes les sections du CV sont bien structurées et conformes aux standards du format JSON Resume, prêtes à être utilisées pour des soumissions automatisées ou à être exportées dans différents formats (PDF, Markdown, etc.).
+
+**Résumé des tâches :**
+- Ingerer la description du poste.
+- Ingerer et corriger la description personnelle.
+- Générer le CV au format JSON Resume, en optimisant chaque section.
+- Générer une lettre de motivation sur mesure.
+- Effectuer des boucles de feedback avec propositions de variantes et améliorations à chaque étape.
+
+## Schema de `resume.json`:
+Voici la structure de donnée resume.json, c'est un example affin que tu puisses verifier les différents champs:
+```json
+{ "basics": { "name": "John Doe", "label": "Programmer", "image": "", "email": "john@gmail.com", "phone": "(912) 555-4321", "url": "https://johndoe.com", "summary": "A summary of John Doe…", "location": { "address": "2712 Broadway St", "postalCode": "CA 94115", "city": "San Francisco", "countryCode": "US", "region": "California" }, "profiles": [{ "network": "Twitter", "username": "john", "url": "https://twitter.com/john" }] }, "work": [{ "name": "Company", "position": "President", "url": "https://company.com", "startDate": "2013-01-01", "endDate": "2014-01-01", "summary": "Description…", "highlights": [ "Started the company" ] }], "volunteer": [{ "organization": "Organization", "position": "Volunteer", "url": "https://organization.com/", "startDate": "2012-01-01", "endDate": "2013-01-01", "summary": "Description…", "highlights": [ "Awarded 'Volunteer of the Month'" ] }], "education": [{ "institution": "University", "url": "https://institution.com/", "area": "Software Development", "studyType": "Bachelor", "startDate": "2011-01-01", "endDate": "2013-01-01", "score": "4.0", "courses": [ "DB1101 - Basic SQL" ] }], "awards": [{ "title": "Award", "date": "2014-11-01", "awarder": "Company", "summary": "There is no spoon." }], "certificates": [{ "name": "Certificate", "date": "2021-11-07", "issuer": "Company", "url": "https://certificate.com" }], "publications": [{ "name": "Publication", "publisher": "Company", "releaseDate": "2014-10-01", "url": "https://publication.com", "summary": "Description…" }], "skills": [{ "name": "Web Development", "level": "Master", "keywords": [ "HTML", "CSS", "JavaScript" ] }], "languages": [{ "language": "English", "fluency": "Native speaker" }], "interests": [{ "name": "Wildlife", "keywords": [ "Ferrets", "Unicorns" ] }], "references": [{ "name": "Jane Doe", "reference": "Reference…" }], "projects": [{ "name": "Project", "startDate": "2019-01-01", "endDate": "2021-01-01", "description": "Description...", "highlights": [ "Won award at AIHacks 2016" ], "url": "https://project.com/" }] }
+```
+
+Si tu as compris propose moi un menu de ce que tu sais faire

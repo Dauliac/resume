@@ -1,0 +1,19 @@
+---
+version: "3"
+tasks:
+  validate:
+    silent: true
+    cmds:
+      - resumed validate
+  theme:build:
+    silent: true
+    dir: theme
+    cmds:
+      - npm run build
+  build:
+    silent: true
+    deps:
+      - validate
+      - theme:build
+    cmds:
+      - npm run build

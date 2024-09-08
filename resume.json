@@ -1,0 +1,233 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "label": "SRE | DevOps",
+    "image": "",
+    "email": "jdauliac@fake.me",
+    "phone": "+33000000",
+    "url": "https://github.com/Dauliac",
+    "summary": "SRE, DevOps et Architecte Backend, avec expérience dans la migration vers le cloud, la mise en place de CI/CD et d'infrastructure Kubernetes.",
+    "location": {
+      "city": "Bordeaux",
+      "countryCode": "FR"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Julien Dauliac",
+        "url": "https://www.linkedin.com/in/julien-dauliac-26a577135/"
+      },
+      {
+        "network": "GitHub",
+        "username": "Dauliac",
+        "url": "https://github.com/Dauliac"
+      }
+    ]
+  },
+  "work": [
+    {
+      "institution": "Ynov Informatique",
+      "url": "https://www.ynov.com/",
+      "area": "Cyber Sécurité",
+      "studyType": "Enseignant",
+      "startDate": "2024",
+      "endDate": "2025",
+      "summary": "Enseignement d'un module sur l'attaque des supply chains en Master cyber sécurité."
+    },
+    {
+      "name": "Sellsy",
+      "position": "DevOps",
+      "url": "https://www.sellsy.com",
+      "startDate": "2021-01-01",
+      "endDate": "2024",
+      "summary": "Gestion du parc, DevOps, CI/CD. Intégration de fusions acquisitions, migration vers le cloud, mise en place d'une developer platform et d'une solution de monitoring.",
+      "highlights": [
+        "Mise en place d'intégration continue (CI/CD)",
+        "Migration au cloud et à Kubernetes",
+        "Mise en place d'une Identity Provider (IDP)",
+        "Mise en place d'une solution de monitoring",
+        "Intégration de fusions et acquisitions"
+      ]
+    },
+    {
+      "name": "Ubiwan",
+      "position": "DevOps",
+      "url": "https://www.ubiwan.net/",
+      "startDate": "2019",
+      "endDate": "2021",
+      "summary": "CICD DevOps, migration vers un multi-cloud on-premise."
+    },
+    {
+      "name": "SimforHealth",
+      "position": "DevOps, Développement Web",
+      "url": "https://simforhealth.fr/",
+      "startDate": "2018",
+      "endDate": "2019",
+      "summary": "DevOps, développement web, mise en place de CI/CD, containers, infrastructure as code."
+    },
+    {
+      "name": "Sewan",
+      "position": "R&D Infrastructure",
+      "url": "https://www.sewan.fr/",
+      "startDate": "2018",
+      "endDate": "2018",
+      "summary": "Stage d'été en R&D infrastructure."
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Marathon de Bordeaux, Fondation des Femmes",
+      "position": "Bénévole",
+      "url": "https://www.semidebordeaux.fr/",
+      "startDate": "2020",
+      "endDate": "2024",
+      "summary": "Contributions open source, Marathon de Bordeaux, Fondation des Femmes."
+    },
+    {
+      "organization": "Fly'in Club",
+      "position": "Développeur Web, Support physique",
+      "url": "https://flyinclub.fr/",
+      "startDate": "2024",
+      "endDate": "2023",
+      "summary": "Participation à la mise en place physique et au développement du site web d'un festival house/techno."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Ynov Informatique",
+      "url": "https://www.ynov.com/",
+      "area": "Informatique",
+      "studyType": "Bachelor",
+      "startDate": "2016-01-01",
+      "endDate": "2019-01-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Université de Bordeaux",
+      "url": "https://www.u-bordeaux.fr/",
+      "area": "Informatique",
+      "studyType": "Master",
+      "startDate": "2019-01-01",
+      "endDate": "2020-01-01",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "SRE",
+      "level": "Expert",
+      "keywords": [
+        "DevOps",
+        "CI/CD",
+        "Build system",
+        "Observabilité",
+        "Linux",
+        "Containers",
+        "AWS",
+        "Infrastructure",
+        "Nix",
+        "Golang"
+      ]
+    },
+    {
+      "name": "Architecture Logicielle",
+      "level": "Avancé",
+      "keywords": [
+        "DDD",
+        "Software Craftmanship",
+        "Microservices",
+        "Monolithes",
+        "Refactoring"
+      ]
+    },
+    {
+      "name": "Langages/Infrastructure as Code",
+      "level": "Avancé",
+      "keywords": [
+        "Ansible",
+        "Typescript",
+        "Rust",
+        "Kubernetes",
+        "Containers",
+        "Lambda"
+      ]
+    },
+    {
+      "name": "Scientifique",
+      "level": "Intermédiaire",
+      "keywords": [
+        "Programmation parallèle",
+        "Programmation kernel",
+        "Deep Learning"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Langue maternelle"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "Professionnel"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sports",
+      "keywords": [
+        "Escalade",
+        "Yoga",
+        "Musculation",
+        "Treking"
+      ]
+    },
+    {
+      "name": "Gastronomie",
+      "keywords": []
+    },
+    {
+      "name": "Cinéma",
+      "keywords": []
+    },
+    {
+      "name": "Philosophie",
+      "keywords": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "Miss Direction",
+      "description": "A mapping engine that misguides you",
+      "highlights": [
+        "Won award at AIHacks 2016",
+        "Built by all women team of newbie programmers",
+        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      ],
+      "keywords": [
+        "GoogleMaps",
+        "Chrome Extension",
+        "Javascript"
+      ],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "url": "http://missdirection.example.com",
+      "roles": [
+        "Team lead",
+        "Designer"
+      ],
+      "entity": "Smoogle",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/sample.resume.json",
+    "version": "v1.0.0",
+    "theme": "jsonresume-theme-local"
+  }
+}

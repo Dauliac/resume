@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "dependencies": {
+    "jsonresume-theme-local": "file:./theme",
+    "resumed": "^4.0.0"
+  },
+  "scripts": {
+    "build": "resumed"
+  }
+}
