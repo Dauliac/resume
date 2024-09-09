@@ -4,7 +4,8 @@
       fontSize: token.fontSize.value,
       fontWeight: token.fontWeight.value,
       lineHeight: token.lineHeight.value,
-      letterSpacing: token.letterSpacing.value
+      letterSpacing: token.letterSpacing.value,
+      color: token.color.value,
     }" class="important1">
     <slot></slot>
   </div>

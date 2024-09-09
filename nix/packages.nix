@@ -20,6 +20,9 @@ in {
           go-task
           coreutils
           nodejs
+          sops
+          garamond-libre
+          liberation_ttf_v2
         ];
         type = types.listOf types.package;
       };

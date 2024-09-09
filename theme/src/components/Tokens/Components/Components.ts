@@ -16,7 +16,7 @@ export const components = {
     fontWeight: ComponentToken.create('Important2FontWeight', system.fontWeights.SysImportantFontWeight),
     lineHeight: ComponentToken.create('Important2LineHeight', system.lineHeights.SysImportantLineHeight),
     letterSpacing: ComponentToken.create('Important2LetterSpacing', system.fontSpacings.SysImportantLetterSpacing),
-    color: ComponentToken.create('Important2Color', system.colors.SysTextSecondaryColor),
+    color: ComponentToken.create('Important2Color', system.colors.SysTextTertiaryColor),
   },
   important3: {
     font: ComponentToken.create('Important3Font', system.fonts.SysABodyFont),
@@ -24,7 +24,7 @@ export const components = {
     fontWeight: ComponentToken.create('Important3FontWeight', system.fontWeights.SysBodyFontWeight),
     lineHeight: ComponentToken.create('Important3LineHeight', system.lineHeights.SysBodyLineHeight),
     letterSpacing: ComponentToken.create('Important3LetterSpacing', system.fontSpacings.SysBodyLetterSpacing),
-    color: ComponentToken.create('Important3Color', system.colors.SysTextSecondaryColor),
+    color: ComponentToken.create('Important3Color', system.colors.SysTextPrimaryColor),
   },
   link: {
     font: ComponentToken.create('LinkFont', system.fonts.SysABodyFont),
