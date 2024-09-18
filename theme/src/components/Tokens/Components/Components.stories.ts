@@ -6,6 +6,8 @@ import LinkComponent from './Link.vue';
 import SubtitleComponent from './Subtitle.vue';
 import TextComponent from './Text.vue';
 import TitleComponent from './Title.vue';
+import DateComponent from './Date.vue';
+import DateIntervalComponent from './DateInterval.vue';
 
 const meta: Meta = {
   title: 'Design Tokens/Components',
@@ -59,5 +61,19 @@ export const Title: StoryObj<typeof TitleComponent> = {
   render: () => ({
     components: { TitleComponent },
     template: '<TitleComponent>Title Text</TitleComponent>',
+  }),
+};
+
+export const Date: StoryObj<typeof TitleComponent> = {
+  render: () => ({
+    components: { DateComponent },
+    template: '<Date :date="2021-01-01"/>',
+  }),
+};
+
+export const DateInterval: StoryObj<typeof TitleComponent> = {
+  render: () => ({
+    components: { DateIntervalComponent },
+    template: '<DateInterval :startDate=""2021-01-01" :endDate="2021-02-02"/>',
   }),
 };

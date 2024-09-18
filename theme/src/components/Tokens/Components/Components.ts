@@ -36,7 +36,7 @@ export const components = {
   },
   subtitle: {
     font: ComponentToken.create('SubtitleFont', system.fonts.SysHeadingFont),
-    fontSize: ComponentToken.create('SubtitleFontSize', system.fontSizes.SysHeadingFontSize),
+    fontSize: ComponentToken.create('SubtitleFontSize', system.fontSizes.SysSubHeadingFontSize),
     fontWeight: ComponentToken.create('SubtitleFontWeight', system.fontWeights.SysHeadingFontWeight),
     lineHeight: ComponentToken.create('SubtitleLineHeight', system.lineHeights.SysHeadingLineHeight),
     letterSpacing: ComponentToken.create('SubtitleLetterSpacing', system.fontSpacings.SysHeadingLetterSpacing),

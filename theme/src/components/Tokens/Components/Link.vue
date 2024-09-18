@@ -1,12 +1,5 @@
 <template>
-  <a :href="href" :style="{
-    fontFamily: token.font.value,
-    fontSize: token.fontSize.value,
-    fontWeight: token.fontWeight.value,
-    lineHeight: token.lineHeight.value,
-    letterSpacing: token.letterSpacing.value,
-    color: token.color.value,
-  }" class="link">
+  <a :href="href" :class="$style.token">
     <slot></slot>
   </a>
 </template>
@@ -19,9 +12,14 @@ const token = computed(() => components.link);
 const props = defineProps(['href']);
 </script>
 
-<style scoped>
-.link {
+<style module>
+.token {
   text-decoration: none;
-  color: inherit;
+  font-family: v-bind('token.font.value');
+  font-size: v-bind('token.fontSize.value');
+  font-weight: v-bind('token.fontWeight.value');
+  line-height: v-bind('token.lineHeight.value');
+  letter-spacing: v-bind('token.letterSpacing.value');
+  color: v-bind('token.color.value');
 }
 </style>

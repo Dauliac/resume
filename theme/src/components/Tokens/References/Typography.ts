@@ -19,7 +19,7 @@ export const typography = {
     smallFontSize: ReferenceToken.create('SmallFontSize', '12px'),
     mediumFontSize: ReferenceToken.create('MediumFontSize', '16px'),
     largeFontSize: ReferenceToken.create('LargeFontSize', '24px'),
-    xlargeFontSize: ReferenceToken.create('XLargeFontSize', '32px'),
+    xLargeFontSize: ReferenceToken.create('LargeFontSize', '32px'),
   },
   spacing: {
     normalLetterSpacing: ReferenceToken.create('NormalLetterSpacing', '0'),

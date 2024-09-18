@@ -8,7 +8,8 @@ export const system = {
     SysABodyFont: SystemToken.create('SysABodyFont', typography.fonts.courierNewFont),
   },
   fontSizes: {
-    SysHeadingFontSize: SystemToken.create('SysHeadingFontSize', typography.size.largeFontSize),
+    SysHeadingFontSize: SystemToken.create('SysHeadingFontSize', typography.size.xLargeFontSize),
+    SysSubHeadingFontSize: SystemToken.create('SysSubHeadingFontSize', typography.size.largeFontSize),
     SysImportantFontSize: SystemToken.create('SysImportantFontSize', typography.size.mediumFontSize),
     SysBodyFontSize: SystemToken.create('SysBodyFontSize', typography.size.smallFontSize),
   },

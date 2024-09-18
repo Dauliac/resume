@@ -5,19 +5,17 @@
         {{ title }}
       </Subtitle>
     </h3>
-    <dl class="stack">
+    <dl class="stack layout-grid--awards">
       <div v-for="(award, index) in awards" :key="index" itemprop="award">
         <dt>
           <Important1>
             {{ award.title }}
           </Important1>
         </dt>
-        <dd class="meta">
-          <div v-if="award.awarder">
-            <Important2>
-            {{ award.awarder }}
-            </Important2>
-          </div>
+        <dd class="typography-text-align--left color-text--meta-grey layout-flex--meta-baseline">
+          <Important2>
+          {{ award.awarder }}
+          </Important2>
           <Date :date="award.date" />
         </dd>
         <dd v-if="award.summary" v-html="award.summary"></dd>
@@ -69,4 +67,24 @@ export default defineComponent({
 </script>
 
 <style scoped>
+.layout-grid--awards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.layout-flex--meta-baseline {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.typography-text-align--left {
+  text-align: left;
+}
+
+.color-text--meta-grey {
+  color: grey;
+}
 </style>

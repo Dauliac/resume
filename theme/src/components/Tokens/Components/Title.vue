@@ -1,14 +1,7 @@
 <template>
-  <div :style="{
-    fontFamily: token.font.value,
-    fontSize: token.fontSize.value,
-    fontWeight: token.fontWeight.value,
-    lineHeight: token.lineHeight.value,
-    letterSpacing: token.letterSpacing.value,
-    color: token.color.value,
-  }" class="title">
+  <span :class="$style.token">
     <slot></slot>
-  </div>
+  </span>
 </template>
 
 <script setup>
@@ -18,8 +11,14 @@ import { computed } from 'vue';
 const token = computed(() => components.title);
 </script>
 
-<style scoped>
-.title {
+<style module>
+.token {
   margin: 10px 0;
+  font-family: v-bind('token.font.value');
+  font-size: v-bind('token.fontSize.value');
+  font-weight: v-bind('token.fontWeight.value');
+  line-height: v-bind('token.lineHeight.value');
+  letter-spacing: v-bind('token.letterSpacing.value');
+  color: v-bind('token.color.value');
 }
 </style>
