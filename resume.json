@@ -1,12 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "label": "SRE | DevOps",
+    "label": "Software Engineer",
     "image": "",
-    "email": "jdauliac@fake.me",
+    "email": "joen@fake.me",
     "phone": "+33000000",
     "url": "https://github.com/Dauliac",
-    "summary": "SRE, DevOps et Architecte Backend, avec expérience dans la migration vers le cloud, la mise en place de CI/CD et d'infrastructure Kubernetes.",
+    "summary": "Software Engineer, avec une forte expertise en SRE, DevOps, développement backend, et un intérêt particulier pour la construction de produits scalables et l'architecture logicielle.",
     "location": {
       "city": "Bordeaux",
       "countryCode": "FR"
@@ -36,17 +36,17 @@
     },
     {
       "name": "Sellsy",
-      "position": "DevOps",
+      "position": "SRE | DevOps",
       "url": "https://www.sellsy.com",
       "startDate": "2021-01-01",
       "endDate": "2024",
-      "summary": "Gestion du parc, DevOps, CI/CD. Intégration de fusions acquisitions, migration vers le cloud, mise en place d'une developer platform et d'une solution de monitoring.",
+      "summary": "Gestion du parc, DevOps, CI/CD, migration vers le cloud et Kubernetes. Mise en place d'une developer platform et intégration de solutions de monitoring.",
       "highlights": [
-        "Mise en place d'intégration continue (CI/CD)",
-        "Migration au cloud et à Kubernetes",
-        "Mise en place d'une Identity Provider (IDP)",
-        "Mise en place d'une solution de monitoring",
-        "Intégration de fusions et acquisitions"
+        "Conception et mise en place de pipelines CI/CD",
+        "Migration au cloud et orchestration Kubernetes",
+        "Mise en place d'une solution de monitoring avancée",
+        "Conception de plateformes de développement",
+        "Collaboration inter-équipes pour l'intégration technique"
       ]
     },
     {
@@ -55,7 +55,7 @@
       "url": "https://www.ubiwan.net/",
       "startDate": "2019",
       "endDate": "2021",
-      "summary": "CICD DevOps, migration vers un multi-cloud on-premise."
+      "summary": "Mise en place de pipelines CI/CD, migration vers un environnement multi-cloud, gestion des containers et infrastructure as code."
     },
     {
       "name": "SimforHealth",
@@ -63,7 +63,7 @@
       "url": "https://simforhealth.fr/",
       "startDate": "2018",
       "endDate": "2019",
-      "summary": "DevOps, développement web, mise en place de CI/CD, containers, infrastructure as code."
+      "summary": "Développement web et mise en place de solutions DevOps, CI/CD, containers, et infrastructure as code."
     },
     {
       "name": "Sewan",
@@ -71,7 +71,7 @@
       "url": "https://www.sewan.fr/",
       "startDate": "2018",
       "endDate": "2018",
-      "summary": "Stage d'été en R&D infrastructure."
+      "summary": "Stage en R&D infrastructure, gestion et optimisation de l'infrastructure interne."
     }
   ],
   "volunteer": [
@@ -81,15 +81,15 @@
       "url": "https://www.semidebordeaux.fr/",
       "startDate": "2020",
       "endDate": "2024",
-      "summary": "Contributions open source, Marathon de Bordeaux, Fondation des Femmes."
+      "summary": "Contributions open source et soutien logistique lors d'événements."
     },
     {
       "organization": "Fly'in Club",
       "position": "Développeur Web, Support physique",
       "url": "https://flyinclub.fr/",
-      "startDate": "2024",
-      "endDate": "2023",
-      "summary": "Participation à la mise en place physique et au développement du site web d'un festival house/techno."
+      "startDate": "2023",
+      "endDate": "2024",
+      "summary": "Développement du site web du festival de 7000 personnes en Vue.js et Figma, en utilisant des design tokens pour garantir la cohérence visuelle."
     }
   ],
   "education": [
@@ -114,9 +114,6 @@
       "courses": []
     }
   ],
-  "awards": [],
-  "certificates": [],
-  "publications": [],
   "skills": [
     {
       "name": "SRE",
@@ -128,10 +125,9 @@
         "Observabilité",
         "Linux",
         "Containers",
-        "AWS",
-        "Infrastructure",
         "Nix",
-        "Golang"
+        "Kubernetes",
+        "Infrastructure as Code"
       ]
     },
     {
@@ -142,19 +138,32 @@
         "Software Craftmanship",
         "Microservices",
         "Monolithes",
-        "Refactoring"
+        "Refactoring",
+        "Design Patterns"
       ]
     },
     {
-      "name": "Langages/Infrastructure as Code",
+      "name": "Web Technologies",
       "level": "Avancé",
       "keywords": [
-        "Ansible",
+        "JavaScript",
+        "Vue.js",
+        "React",
         "Typescript",
+        "Figma",
+        "Design Tokens"
+      ]
+    },
+    {
+      "name": "Software Engineering",
+      "level": "Avancé",
+      "keywords": [
         "Rust",
-        "Kubernetes",
-        "Containers",
-        "Lambda"
+        "Nix",
+        "Python",
+        "Typescript",
+        "Golang",
+        "Python"
       ]
     },
     {
@@ -184,7 +193,7 @@
         "Escalade",
         "Yoga",
         "Musculation",
-        "Treking"
+        "Trekking"
       ]
     },
     {
@@ -200,34 +209,9 @@
       "keywords": []
     }
   ],
-  "projects": [
-    {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
-      "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
-      ],
-      "keywords": [
-        "GoogleMaps",
-        "Chrome Extension",
-        "Javascript"
-      ],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "url": "http://missdirection.example.com",
-      "roles": [
-        "Team lead",
-        "Designer"
-      ],
-      "entity": "Smoogle",
-      "type": "application"
-    }
-  ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/sample.resume.json",
     "version": "v1.0.0",
-    "theme": "jsonresume-theme-local"
+    "theme": "jsonresume-theme-stackoverflow"
   }
 }

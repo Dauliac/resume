@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@4lch4/jsonresume-theme-stackoverflow": "^2.0.6",
+    "jsonresume-theme-bhdouglass": "^1.0.2",
+    "jsonresume-theme-bufferbloat": "^1.0.2",
+    "jsonresume-theme-business-professional-compact": "^1.0.2",
+    "jsonresume-theme-codecobra": "^2.2.0",
+    "jsonresume-theme-elegant-maksymgendin": "^1.4.0",
+    "jsonresume-theme-elegant-mrseanryan": "^1.10.11",
+    "jsonresume-theme-even": "^0.23.0",
+    "jsonresume-theme-jdambron-fr": "^1.0.11",
+    "jsonresume-theme-orbit": "^3.0.0",
+    "jsonresume-theme-professional": "^1.1.0",
+    "jsonresume-theme-stackoverflow": "^2.0.2",
+    "resumed": "^4.0.0"
+  },
+  "scripts": {
+    "render": "resumed render"
+  }
+}

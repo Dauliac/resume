@@ -1,5 +1,7 @@
 ---
 version: "3"
+dotenv:
+  - .env
 tasks:
   validate:
     silent: true
@@ -12,8 +14,15 @@ tasks:
       - npm run build
   build:
     silent: true
-    deps:
-      - validate
-      - theme:build
+    desc: Build resume
     cmds:
-      - npm run build
+      - |
+        rm -rf build
+        mkdir build
+        cat resume.json | \
+          jq \
+            '.basics.email="{{.EMAIL}}"|.basics.phone="{{.PHONE}}"' \
+            resume.json \
+          > build/resume.json
+        resumed render build/resume.json --output build/resume.html
+        weasyprint build/resume.html build/resume.pdf

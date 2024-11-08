@@ -23,6 +23,7 @@ in {
           sops
           garamond-libre
           liberation_ttf_v2
+          python312Packages.weasyprint
         ];
         type = types.listOf types.package;
       };

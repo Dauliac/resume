@@ -30,6 +30,10 @@ in {
         description = mdDoc "Default devShell shell hook";
         default = ''
           export PATH=$PATH:$(pwd)/node_modules/.bin
+          export SOPS_AGE_KEY_FILE=~/.config/sops/age/dotfiles.txt
+          rm -f .env
+          sops -d data.secret.env > .env
+          source .env
           if [ -f Taskfile.dist.yaml ]; then
             task init
           fi

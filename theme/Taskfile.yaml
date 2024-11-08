@@ -1,7 +1,0 @@
-versions: "3"
-tasks:
-  publish:chromatic:
-    cmds:
-      - |
-        sops exec-env sops.env \
-          npx chromatic --project-token=$CHROMATIC_TOKEN
