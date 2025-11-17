@@ -26,6 +26,14 @@
   },
   "work": [
     {
+      "institution": "Manomano",
+      "url": "https://www.manomano.fr/",
+      "area": "Cloud platform",
+      "studyType": "SRE",
+      "startDate": "2025",
+      "summary": "Monitoring, software delivery."
+    },
+    {
       "institution": "Ynov Informatique",
       "url": "https://www.ynov.com/",
       "area": "Cyber Sécurité",
